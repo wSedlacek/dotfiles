@@ -1,0 +1,48 @@
+option-as-alt = 'left'
+padding-x = 10
+
+[renderer]
+performance = "High"
+backend = "Metal"
+
+[cursor]
+blinking = false
+
+[shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login"]
+
+[window]
+opacity = 0.7
+blur = true
+height = 420
+width = 572
+
+
+[fonts.ui]
+family = "MonaspiceKr Nerd Font Mono"
+
+[fonts]
+family = "MonaspiceKr Nerd Font Mono"
+size = 14
+extras = [
+  { family =  "MonaspiceKr Nerd Font Mono" },
+  { family =  "MonaspiceKr Nerd Font Mono" },
+]
+
+[navigation]
+mode = "NativeTab"
+clickable = false
+
+[colors]
+background = '#171a1f'
+selection-foreground = '#ffffff'
+foreground = '#ffffff'
+cursor = '#eff1f5'
+tabs = '#443d40'
+tabs-active = '#F38BA3'
+green = '#0BA95B'
+red = '#ED203D'
+blue = '#12B5E5'
+yellow = '#FCBA28'
+
