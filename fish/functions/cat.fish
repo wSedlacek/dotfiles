@@ -1,3 +1,4 @@
-function cat --wraps='bat --paging=never' --description 'alias cat=bat --paging=never'
-  bat --paging=never $argv; 
+function cat --wraps=bat --wraps='bat -r' --wraps='bat -p' --description 'alias cat bat -p'
+  bat -p $argv
+        
 end

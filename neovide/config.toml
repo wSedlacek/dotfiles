@@ -1,0 +1,4 @@
+frame = "transparent"
+
+[box-drawing]
+mode = "selected-native"
